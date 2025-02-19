@@ -8,11 +8,11 @@ const AMOUNT_INPUT = document.querySelector(".amount-input");
 
 if(PRODUCT_NAME == "green_tea")
 {
-    PRODUCT_IMAGE.src = "../images/products/green_tea.jpg";
+    PRODUCT_IMAGE.src = "/images/products/green_tea.jpg";
 }
 else if(PRODUCT_NAME == "honeybush_tea")
 {
-    PRODUCT_IMAGE.src = "../images/products/honeybush_tea.jpg";
+    PRODUCT_IMAGE.src = "/images/products/honeybush_tea.jpg";
 }
 
 AMOUNT_INPUT.addEventListener("blur", () => {
