@@ -1,0 +1,98 @@
+.navbar-brand {
+    color: var(--green) !important;
+    font-size: clamp(2rem, calc(1vw + 1rem), 3rem);
+    font-weight: 700;
+}
+
+#navbarNav a:hover {
+    color: var(--green) !important;
+}
+
+.banner {
+    width: 100%;
+    height: 75dvh;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bannerPhrases {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s ease-in-out, opacity 0.3s;
+}
+
+.bannerPhrases-container--left {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 15%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50% 0 50% 0;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.bannerPhrases-container--right {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0 50% 0 50%;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.bannerPhrases p {
+    color: #ffffff;
+    font-size: min(1.5rem, 2.5rem);
+    overflow-wrap: break-word;
+}
+
+.visible {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.left {
+    left: 0;
+    right: auto;
+}
+  
+.right {
+    left: auto;
+    right: 0;
+}
+
+.form-check .form-switch {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.d-flex.align-items-center .bi {
+    margin-right: 10%;
+}

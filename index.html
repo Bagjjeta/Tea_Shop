@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michał Adamus">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+    <script src="./scripts/toggleTheme.js" defer></script>
+    <title>Tea Shop</title>
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">TeaShop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center ms-auto">
+                    <i class="bi bi-moon-fill"></i>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="theme-toggle">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="./images/banner3.jpg" alt="banner">
+                <div class="bannerPhrases left">
+                    <div class="bannerPhrases--left">
+                        <div class="bannerPhrases-container--right">
+                            <p>Discover the World in a Cup of Tea</p>
+                        </div>
+                    </div>
+                    <div class="bannerPhrases--right">
+                        <div class="bannerPhrases-container--left">
+                            <p>Steeped in Tradition, Crafted for You</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="products">
+        <h2>Recommend</h2>
+        <div class="products-containers">
+            <div class="product-container">
+                <a href="product.html?name=black_tea">
+                    <img src="./images/products/black_tea.jpg" alt="Black Tea">
+                    <h5>Black Tea</h3>
+                    <span class="price_amount">
+                        $<span class="price">6.75</span> / 
+                        <span class="amount">50</span>g
+                    </span>
+                </a>
+            </div>
+            <div class="product-container">
+                <a href="product.html?name=green_tea">
+                    <img src="./images/products/green_tea.jpg" alt="Black Tea">
+                    <h5>Green Tea</h3>
+                    <span class="price_amount">
+                        $<span class="price">8.50</span> / 
+                        <span class="amount">50</span>g
+                    </span>
+                </a>
+            </div>
+            <div class="product-container">
+                <a href="product.html?name=honeybush_tea">
+                    <img src="./images/products/honeybush_tea.jpg" alt="Black Tea">
+                    <h5>Honeybush</h3>
+                    <span class="price_amount">
+                        $<span class="price">4.00</span> / 
+                        <span class="amount">50</span>g
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

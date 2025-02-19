@@ -1,0 +1,27 @@
+.dark-theme {
+    background-color: #2b2828;
+    color: #ffffff;
+}
+.dark-theme .navbar {
+    background-color: #343a40 !important;
+}
+
+.dark-theme .navbar a {
+    color: #ffffff !important;
+}
+
+.dark-theme .navbar .navbar-brand {
+    color: var(--green) !important;
+}
+
+.bi-sun-fill {
+    color: #ffffff;
+}
+
+.dark-theme .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.dark-theme .navbar-toggler-icon {
+    filter: invert(100%);
+}

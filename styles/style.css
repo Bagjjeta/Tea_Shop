@@ -1,0 +1,31 @@
+@import "./header.css";
+@import "./darkTheme.css";
+@import "./products.css";
+@import "./fonts.css";
+
+:root {
+    --green: rgb(42, 160, 19);
+    --gray: rgb(116, 111, 111);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.no-arrows {
+    -moz-appearance: textfield;
+    appearance: none;
+}
